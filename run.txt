@@ -1,0 +1,6 @@
+compile
+    javac -cp amqp-client-5.16.0.jar Ping.java Pong.java
+run
+    java -cp .;amqp-client-5.16.0.jar;slf4j-api-1.7.36.jar;slf4j-simple-1.7.36.jar Ping
+    java -cp .;amqp-client-5.16.0.jar;slf4j-api-1.7.36.jar;slf4j-simple-1.7.36.jar Pong
+    java -cp .;amqp-client-5.16.0.jar;slf4j-api-1.7.36.jar;slf4j-simple-1.7.36.jar Controller
